@@ -16,7 +16,7 @@ con.addEventListener("click", function () {
 
 // console.log("///4");
 
-con.addEventListener("click", function () {
+con.addEventListener("dblclick", function () {
   // console.log(param , "work");
   console.log("Clicked");
   love.style.transform = "translate(-50% , -50%) scale(2)";

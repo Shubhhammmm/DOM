@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+    /* background-color: saddlebrown; */
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    background-color: sandybrown;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursor{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #b02525;
+    mix-blend-mode: difference;
+    position: absolute;
+    transition: all linear 0.2s;
+}
+
+h1{
+    font-size: 9vw;
+    font-weight: 900;
+    /* text-align: center; */
+
+
+}
